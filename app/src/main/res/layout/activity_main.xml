@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="35dp"
+    android:paddingTop="35dp"
+    android:paddingRight="35dp"
+    android:paddingBottom="35dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Bien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="¡Bienvenido!"
+        android:textSize="40"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <EditText
+        android:id="@+id/edituser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Usuario"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <EditText
+        android:id="@+id/editpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Contraseña"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Registrarse"
+        android:textSize="19"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <Button
+        android:id="@+id/btnInit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Iniciar Sesión"
+        android:textSize="19"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Panificadora"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
