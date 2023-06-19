@@ -50,4 +50,6 @@ public class RegistroData extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+    //Comentario de prueba Araceli Chavez Martinez
 }
