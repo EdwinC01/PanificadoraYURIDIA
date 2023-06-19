@@ -65,11 +65,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="112dp"
+        android:layout_height="121dp"
         app:srcCompat="@drawable/Panificadora"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="56dp" />
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="36dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
