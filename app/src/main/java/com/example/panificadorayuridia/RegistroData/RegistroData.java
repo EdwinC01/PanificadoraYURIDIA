@@ -38,6 +38,7 @@ public class RegistroData extends AppCompatActivity {
 
         ContentValues values = new ContentValues();
 
+        //Usuario y Nombre
         values.put("username", UserName);
         values.put("clave_User", PassUser);
 
